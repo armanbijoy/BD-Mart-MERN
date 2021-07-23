@@ -23,6 +23,7 @@ const Product = ({ product }) => {
             text={`${product.numReviews} reviews`}
           />
         </Card.Text>
+
         <Card.Text as='h3'>BDT {product.price}</Card.Text>
       </Card.Body>
     </Card>
